@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import epub_kitty
+import epub_kitty_ios
 
 class ViewController: UIViewController,FolioReaderPageDelegate{
     let folioReader = FolioReader()
