@@ -195,7 +195,7 @@ extension FolioReaderAddHighlightNote: UITextViewDelegate {
     }
     
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-        textView.frame.size.height = textView.frame.height + 30
+        textView.frame.size.height = textView.frame.height - 500 
 
         if resizedTextView {
             scrollView.scrollRectToVisible(textView.frame, animated: true)
